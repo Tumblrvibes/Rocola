@@ -1,0 +1,23 @@
+body{
+    background-image: url("fondo.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenes{
+    padding-top: 10px;
+}
+
+.images{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.nombres{
+    padding-top: 5px;
+}
+
+.names{
+    padding-left: 75px;
+    padding-right: 75px;
+}

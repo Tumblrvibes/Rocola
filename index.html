@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Rocola</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <link href="style.css" rel="stylesheet"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        
+    </head>
+    <body>
+        <center>
+            <div class="container">
+                <h1 id="titulo">Rocola</h1>
+                <p>Haz click en el botón para buscar una canción con tu voz</p>
+
+                <div class="form-group">
+                    <h3>Pediste la canción...</h3>
+                    <textarea class="form-control" id="textbox" readonly="true"></textarea>
+                </div>
+                <br><br>
+                <button class="btn btn-warning" onclick="comenzar()">Buscar canción</button>
+                <br><br>
+                <div class="imagenes">
+                    <span class="images"id="cancion1">
+                        <img src="onekiss.jpg" width="300px">
+                    </span>
+                    <span class="images"id="cancion2">
+                        <img src="cupid fifty fifty (1).jpg" width="300px">
+                    </span>
+                    <span class="images"id="cancion3">
+                        <img src="ifweeverbrokeup.png" width="300px">
+                    </span>
+                </div>
+                <div class="nombres">
+                    <span class="names">One kiss-Dua Lipa ft. Calvin Harris</span>
+                    <span class="names">Cupid-Fifty Fifty</span>
+                    <span class="names">If We Ever Broke Up-Mae Stephens</span>
+                </div>
+                <div class="imagenes">
+                    <span class="images" id="cancion4">
+                        <img src="Telepatia kali uchis.jpg" width="300px">
+                    </span>
+                    <span class="images"id="cancion5">
+                        <img src="oke oke lala;a.png" width="300px">
+                    </span>
+                    <span class="images"id="cancion6">
+                        <img src="onlylove.jfif" width="300px">
+                    </span>
+                </div>
+                <div class="nombres">
+                    <span class="names">Telepatía-Kali Uchis</span>
+                    <span class="names">See You Again-Tyler, The Creator y Kali Uchis</span>
+                    <span class="names">Only Love Can Hurt Like This-Paloma Faith</span>
+                </div>
+                <div class="imagenes">
+                    <span class="images" id="cancion7">
+                        <img src="peaches.png" width="300px">
+                    </span>
+                    <span class="images"id="cancion8">
+                        <img src="say so.png" width="300px">
+                    </span>
+                    <span class="images"id="cancion9">
+                        <img src="stay.png" width="300px">
+                    </span>
+                </div>
+                <div class="nombres">
+                    <span class="names">Peaches-Jack Black</span>
+                    <span class="names">Say so-Rainyich</span>
+                    <span class="names">Stay-That kid Laroi y Justin Bieber</span>
+                </div>
+            </div>
+            <audio id="audio1" src="Calvin Harris, Dua Lipa   One Kiss (Official Audio).mp3"></audio>
+            <audio id="audio2" src="FIFTY FIFTY (피프티피프티)   'Cupid'  Official MV.mp3"></audio>
+            <audio id="audio3" src="If We Ever Broke Up.mp3"></audio>
+            <audio id="audio4" src="Kali Uchis  telepatía [Official Audio] (1).mp3"></audio>
+            <audio id="audio5" src="okokok, lalala (sped up) ; see you again.mp3"></audio>
+            <audio id="audio6" src="Paloma Faith   Only Love Can Hurt Like This (Official Audio).mp3"></audio>
+            <audio id="audio7" src="The Super Mario Bros. Movie - Official Peaches Music Video (2023) Jack Black (1080p) (1).mp3"></audio>
+            <audio id="audio8" src="Say_So_Japanise.mp3"></audio>
+            <audio id="audio9" src="The Kid LAROI, Justin Bieber   STAY (Official Audio).mp3"></audio>
+
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
