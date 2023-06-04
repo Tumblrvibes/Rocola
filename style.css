@@ -1,0 +1,20 @@
+.heading{
+    font-family: 'The Physics Lab', sans-serif;
+    font-size: 40px;
+    color: pink;                                                          
+}
+body{
+    color:rgb(208, 52, 83);
+    background: linear-gradient(rgb(145, 183, 255), pink);
+}
+#resultado_objeto, #resultado-presicion{
+    color:darkblue;
+}
+p{
+    font-size:22px;
+}
+#camara{
+    border: 2px dashed black;
+    width: 350px;
+    height: 350px;
+}
